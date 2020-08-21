@@ -9,11 +9,15 @@ const ClockCard = (type) => {
     <div className='clock-main-card'>
       <div className='inner-clock-card'>
         <h1>9:23</h1>
-        <h3>Monday</h3>
-        <h5>10 january 2020</h5>
+        <h5>Monday</h5>
+        <h6>10 january 2020</h6>
         <div className='clock-card-icons'>
-          <MdLocalPostOffice />
-          <VscBellDot />
+          <div className='clock-card-icon1'>
+            <MdLocalPostOffice />
+          </div>
+          <div className='clock-card-icon2'>
+            <VscBellDot />
+          </div>
         </div>
         <div className='clock-dots'>
           <HiDotsHorizontal />
