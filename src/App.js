@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import LightMainCard from './components/LightMainCard';
+import DarkMainCard from './components/DarkMaincard';
+import './index.scss';
 
-function App() {
+// const Card = [
+//   {
+//     type: 'Card1',
+//   },
+//   {
+//     type: 'Card2',
+//   },
+// ];
+
+const App = (type) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <LightMainCard />
+      <div style={{ margin: '50px' }}></div>
+      <DarkMainCard />
     </div>
   );
-}
+};
 
 export default App;
