@@ -18,7 +18,7 @@ const Toggle = (darkMode) => {
       </div> */}
 
       <div className='navbar-right' onClick={darkMode.toggle}>
-        {darkMode.value ? <BsMoon color='white' /> : <BiMoon />}
+        {darkMode.value ? <BiMoon color='white' /> : <BsMoon />}
       </div>
     </div>
   );
