@@ -14,29 +14,23 @@ code {
 h1 {
   text-align: center;
   margin: auto;
-  color: red;
 }
 h2 {
   text-align: center;
-  color: red;
 }
 h3 {
   text-align: center;
-  color: red;
 }
 h4 {
   text-align: center;
-  color: red;
 }
 h5 {
   text-align: center;
   margin: 10px;
-  color: red;
 }
 h6 {
   text-align: center;
   margin: auto;
-  color: red;
 }
 
 .container {
@@ -60,6 +54,8 @@ h6 {
         border-radius: 20px;
         height: 160px;
         width: 140px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
         .clock-card-icons {
           display: flex;
           justify-content: center;
@@ -97,6 +93,8 @@ h6 {
         border-radius: 20px;
         height: 160px;
         width: 140px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
         .calender-sub-cards {
           display: flex;
           justify-content: center;
@@ -144,6 +142,15 @@ h6 {
         width: 140px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          h1 {
+            color: white !important;
+          }
+          h5 {
+            color: white !important;
+          }
+          h6 {
+            color:#242323  !important;
+          }
         .clock-card-icons {
           display: flex;
           justify-content: center;
@@ -186,6 +193,15 @@ h6 {
         height: 160px;
         width: 140px;
         background-color: black;
+        h1 {
+          color: white !important;
+        }
+        h5 {
+          color: white !important;
+        }
+        h6 {
+          color:white  !important;
+        }
         .calender-sub-cards {
           display: flex;
           justify-content: center;
@@ -197,9 +213,6 @@ h6 {
             width: 50px;
             height: 60px;
             border-radius: 10px;
-            .h6 {
-              margin: auto;
-            }
           }
           .calender-card-card2 {
             color: black;

@@ -10,12 +10,12 @@ const CalenderCard = (type) => {
         <h5>Calender</h5>
         <div className='calender-sub-cards'>
           <div className='calender-card-card1'>
-            <div>2</div>
+            <h6>2</h6>
             <hr class='solid'></hr>
             <h6>work</h6>
           </div>
           <div className='calender-card-card2'>
-            <div>3</div>
+            <h6>3</h6>
             <hr class='solid'></hr>
             <h6>Personal</h6>
           </div>
