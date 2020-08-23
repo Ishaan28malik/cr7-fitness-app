@@ -38,7 +38,7 @@ h6 {
   flex-direction: column;
   margin: 50px;
   .light-main-card {
-    background-color: lightgrey;
+    // background-color: lightgrey;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -49,7 +49,6 @@ h6 {
       justify-content: center;
       margin: 30px;
       .inner-clock-card {
-        border: 1px solid white;
         background-color: white;
         border-radius: 20px;
         height: 160px;
@@ -237,24 +236,19 @@ h6 {
 .Navbar {
   display: flex;
   flex-direction: row;
-  height: 4rem;
+  // height: 4rem;
   align-items: center;
   justify-content: space-between;
 
-  .navbar-left {
-    // width: 3rem;
+   .navbar-middle {
     // border: 1px solid;
+    color: #6c757d;
+    // font-size: 18px;
+    // font-weight: 900;
   }
 
-  //   .navbar-middle {
-  //     // border: 1px solid;
-  //     color: #6c757d;
-  //     font-size: 18px;
-  //     font-weight: 900;
-  //   }
-
   .navbar-right {
-    width: 3rem;
+    // width: 3rem;
     cursor: pointer;
   }
 }
@@ -268,5 +262,105 @@ h6 {
 .dark-mode {
   .navbar-middle {
     color: white !important;
+    .clock-main-card {
+      display: flex;
+      justify-content: center;
+      margin: 30px;
+      .inner-clock-card {
+        background-color: black;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          h1 {
+            color: white !important;
+          }
+          h5 {
+            color: white !important;
+          }
+          h6 {
+            color:#242323  !important;
+          }
+        .clock-card-icons {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          .clock-card-icon1 {
+            color: white;
+            background-color: #242323;
+            width: 30px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+          .clock-card-icon2 {
+            color: white;
+            background-color: #242323;
+            width: 30px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+        }
+        .clock-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          color: white;
+        }
+      }
+    }
+    .calender-main-card {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      //   line-height: 0px;
+      .inner-calender-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        background-color: black;
+        h1 {
+          color: white !important;
+        }
+        h5 {
+          color: white !important;
+        }
+        h6 {
+          color:white  !important;
+        }
+        .calender-sub-cards {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          .calender-card-card1 {
+            color: black;
+            background-color: #148ade;
+            width: 50px;
+            height: 60px;
+            border-radius: 10px;
+          }
+          .calender-card-card2 {
+            color: black;
+            background-color: #0aab28;
+            width: 50px;
+            height: 60px;
+            border-radius: 10px;
+          }
+        }
+        .calender-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          color: white;
+        }
+      }
+    }
   }
 }

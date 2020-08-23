@@ -2,8 +2,9 @@ import React from 'react';
 import '../index.scss';
 import { HiDotsHorizontal } from 'react-icons/hi';
 
-const CalenderCard = (type) => {
+const CalenderCard = (type,darkMode) => {
   return (
+
     <div className='calender-main-card'>
       <div className='inner-calender-card'>
         <h6>9:23</h6>
