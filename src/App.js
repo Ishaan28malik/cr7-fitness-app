@@ -22,7 +22,6 @@ const App = (type) => {
   const darkMode = useDarkMode(false);
   return (
     <div className='container'>
-      {/* <Toggle {...darkMode} /> */}
       <LightMainCard {...darkMode}/>
       {/* <div style={{ margin: '50px' }}></div> */}
       {/* <DarkMainCard /> */}
