@@ -1,0 +1,106 @@
+/* .dark-main-card {
+    background-color: #242323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .clock-main-card {
+      display: flex;
+      justify-content: center;
+      margin: 30px;
+      .inner-clock-card {
+        background-color: black;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          h1 {
+            color: white !important;
+          }
+          h5 {
+            color: white !important;
+          }
+          h6 {
+            color:#242323  !important;
+          }
+        .clock-card-icons {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          .clock-card-icon1 {
+            color: white;
+            background-color: #242323;
+            width: 30px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+          .clock-card-icon2 {
+            color: white;
+            background-color: #242323;
+            width: 30px;
+            padding: 5px;
+            border-radius: 5px;
+          }
+        }
+        .clock-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          color: white;
+        }
+      }
+    }
+    .calender-main-card {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      //   line-height: 0px;
+      .inner-calender-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        background-color: black;
+        h1 {
+          color: white !important;
+        }
+        h5 {
+          color: white !important;
+        }
+        h6 {
+          color:white  !important;
+        }
+        .calender-sub-cards {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          .calender-card-card1 {
+            color: black;
+            background-color: #148ade;
+            width: 50px;
+            height: 60px;
+            border-radius: 10px;
+          }
+          .calender-card-card2 {
+            color: black;
+            background-color: #0aab28;
+            width: 50px;
+            height: 60px;
+            border-radius: 10px;
+          }
+        }
+        .calender-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          color: white;
+        }
+      }
+    }
+  } */

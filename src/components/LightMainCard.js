@@ -20,7 +20,7 @@ const LightMainCard = (darkMode) => {
         </div>
         <FiActivity /> Fitness Tracker
         <div className='light-main-card'>
-        <ClockCard />
+          <ClockCard />
           <CalenderCard />
           <GoalCard/>
     </div>
