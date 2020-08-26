@@ -1,3 +1,10 @@
+<h2>Light Theme</h2>
+<img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/Light-theme.png' width='160%'/>
+<h2>Dark Theme</h2>
+<img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/dark-theme.png' />
+
+**Steps**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
