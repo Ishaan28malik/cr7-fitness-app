@@ -1,25 +1,23 @@
 import React from 'react';
+
+/* core */
+import { CircularProgressbar } from 'react-circular-progressbar';
+
+/* style */
 import '../index.scss';
-import { VscBellDot } from 'react-icons/vsc';
-import { MdLocalPostOffice } from 'react-icons/md';
 import { HiDotsHorizontal } from 'react-icons/hi';
-import {
-  CircularProgressbar,
-  CircularProgressbarWithChildren,
-  buildStyles,
-} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const percentage = 60;
 
-const GoalCard = (type) => {
+const GoalCard = () => {
   return (
-    <div className='calender-main-card'>
-      <div className='inner-calender-card'>
+    <div className='goal-main-card'>
+      <div className='inner-goal-card'>
         <h6>9:23</h6>
         <h5>Goals</h5>
-        <div className='calender-sub-cards'>
-          <div className='calender-card-card1'>
+        <div className='goal-sub-card'>
+          <div className='goal-card'>
             <h1>
               <CircularProgressbar
                 value={percentage}
@@ -30,7 +28,7 @@ const GoalCard = (type) => {
           </div>
         </div>
         <h6>4 goals to do</h6>
-        <div className='calender-dots'>
+        <div className='goal-dots'>
           <HiDotsHorizontal />
         </div>
       </div>

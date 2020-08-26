@@ -15,17 +15,23 @@ const LightMainCard = (darkMode) => {
   return (
     <div className='Navbar'>
       <div className='navbar-middle'>
-      <div className='navbar-right' onClick={darkMode.toggle}>
-      {darkMode.value ? <BiMoon color='white' /> : <BsMoon />}
+        <div className='navbar-right' onClick={darkMode.toggle}>
+          {darkMode.value ? <BiMoon color='white' /> : <BsMoon />}
         </div>
-        <FiActivity /> Fitness Tracker
+        <div
+          style={{
+            margin: 'auto',
+          }}
+        >
+          <FiActivity /> Fitness Tracker
+        </div>
         <div className='light-main-card'>
           <ClockCard />
           <CalenderCard />
-          <GoalCard/>
+          <GoalCard />
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
   );
 };
 

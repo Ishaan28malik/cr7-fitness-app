@@ -14,6 +14,8 @@ code {
 h1 {
   text-align: center;
   margin: auto;
+  font-size: 30px;
+  font-weight: 450;
 }
 h2 {
   text-align: center;
@@ -38,7 +40,6 @@ h6 {
   flex-direction: column;
   margin: 50px;
   .light-main-card {
-    // background-color: lightgrey;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,15 +65,17 @@ h6 {
             color: black;
             background-color: #e6e8e8;
             width: 30px;
-            padding: 5px;
-            border-radius: 5px;
+            padding: 6px;
+            border-radius: 4px;
+            margin-right: 5px;
           }
           .clock-card-icon2 {
             color: black;
             background-color: #e6e8e8;
             width: 30px;
-            padding: 5px;
-            border-radius: 5px;
+            padding: 6px;
+            border-radius: 4px;
+            margin-left: 5px;
           }
         }
         .clock-dots {
@@ -98,25 +101,56 @@ h6 {
           display: flex;
           justify-content: center;
           text-align: center;
-        }
-        .calender-sub-cards {
           margin: 5px;
           .calender-card-card1 {
             color: black;
             background-color: #e6e8e8;
-            width: 50px;
-            height: 60px;
-            border-radius: 10px;
+            width: 45px;
+            height: 50px;
+            border-radius: 5px;
+            margin-right: 5px;
           }
           .calender-card-card2 {
             color: black;
-            background-color: #d4faf4;
+            background-color: #ebfffc;
+            width: 45px;
+            height: 50px;
+            border-radius: 5px;
+            margin-left: 5px;
+          }
+        }
+        .calender-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+        }
+      }
+    }
+    .goal-main-card {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      .inner-goal-card {
+        background-color: white;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .goal-sub-card {
+          margin: 5px;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          .goal-card {
+            color: black;
             width: 50px;
             height: 60px;
             border-radius: 10px;
           }
         }
-        .calender-dots {
+        .goal-dots {
           display: flex;
           justify-content: center;
           text-align: center;
@@ -130,44 +164,34 @@ h6 {
 .Navbar {
   display: flex;
   flex-direction: row;
-  // height: 4rem;
   align-items: center;
   justify-content: space-between;
   background-color: lightgrey;
-  width: 50rem;
-   .navbar-middle {
-    // border: 1px solid;
-    color: #6c757d;
-    // font-size: 18px;
-    // font-weight: 900;
+  width: 45rem;
+  .navbar-middle {
     display: flex;
     justify-content: center;
   }
   .navbar-right {
-    // width: 10rem;
-    // border: 1px solid;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    // margin-left: 70vh;
+    // margin: auto;
+    margin: 5px;
   }
 }
-
 .dark-mode {
   .Navbar {
     background-color: #1e1e30;
-    border: 1px solid white;
   }
 }
 
 .dark-mode {
-  // border: 1px solid;
   .navbar-middle {
     color: white !important;
     .clock-main-card {
       display: flex;
       justify-content: center;
-      // margin: 20px;
       .inner-clock-card {
         background-color: black;
         border-radius: 20px;
@@ -175,15 +199,15 @@ h6 {
         width: 140px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          h1 {
-            color: white !important;
-          }
-          h5 {
-            color: white !important;
-          }
-          h6 {
-            color:#242323  !important;
-          }
+        h1 {
+          color: white !important;
+        }
+        h5 {
+          color: white !important;
+        }
+        h6 {
+          color: #242323 !important;
+        }
         .clock-card-icons {
           display: flex;
           justify-content: center;
@@ -233,7 +257,7 @@ h6 {
           color: white !important;
         }
         h6 {
-          color:white  !important;
+          color: white !important;
         }
         .calender-sub-cards {
           display: flex;
@@ -264,6 +288,46 @@ h6 {
         }
       }
     }
-    
+    .goal-main-card {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      .inner-goal-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+        border-radius: 20px;
+        height: 160px;
+        width: 140px;
+        background-color: black;
+        h1 {
+          color: white !important;
+        }
+        h5 {
+          color: white !important;
+        }
+        h6 {
+          color: white !important;
+        }
+        .goal-sub-cards {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          .goal-card {
+            width: 50px;
+            height: 60px;
+            border-radius: 10px;
+          }
+        }
+        .goal-dots {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 5px;
+          color: white;
+        }
+      }
+    }
   }
 }
