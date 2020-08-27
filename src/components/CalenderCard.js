@@ -1,4 +1,9 @@
 import React from 'react';
+
+/* core */
+import moment from 'moment';
+
+/* style */
 import '../index.scss';
 import { HiDotsHorizontal } from 'react-icons/hi';
 
@@ -6,7 +11,7 @@ const CalenderCard = () => {
   return (
     <div className='calender-main-card'>
       <div className='inner-calender-card'>
-        <h6>9:23</h6>
+        <h6>{moment().format("h:mm")}</h6>
         <h5>Calender</h5>
         <div className='calender-sub-cards'>
           <div className='calender-card-card1'>

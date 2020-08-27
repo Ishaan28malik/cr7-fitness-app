@@ -2,6 +2,8 @@ import React from 'react';
 
 /* core */
 import { CircularProgressbar } from 'react-circular-progressbar';
+import moment from 'moment';
+
 
 /* style */
 import '../index.scss';
@@ -14,7 +16,7 @@ const GoalCard = () => {
   return (
     <div className='goal-main-card'>
       <div className='inner-goal-card'>
-        <h6>9:23</h6>
+        <h6>{moment().format("h:mm")}</h6>
         <h5>Goals</h5>
         <div className='goal-sub-card'>
           <div className='goal-card'>
