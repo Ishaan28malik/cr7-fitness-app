@@ -34,7 +34,6 @@ const LightMainCard = (darkMode) => {
           </div>
         </div>
       </div>
-
     </>
   );
 };
