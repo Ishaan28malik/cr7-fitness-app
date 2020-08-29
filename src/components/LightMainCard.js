@@ -4,12 +4,13 @@ import React from 'react';
 import GoalCard from './GoalCard';
 import CalenderCard from './CalenderCard';
 import ClockCard from './Clockcard';
-
-/* style */
-import '../index.scss';
 import { BiMoon } from 'react-icons/bi';
 import { BsMoon } from 'react-icons/bs';
 import { FiActivity } from 'react-icons/fi';
+
+/* style */
+import '../index.scss';
+
 
 const LightMainCard = (darkMode) => {
   return (

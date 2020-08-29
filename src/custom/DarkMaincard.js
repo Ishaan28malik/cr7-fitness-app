@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.scss';
-import CalenderCard from './CalenderCard';
-import ClockCard from './Clockcard';
+import CalenderCard from '../components/CalenderCard';
+import ClockCard from '../components/Clockcard';
 
 const DarkMainCard = (type) => {
   return (

@@ -1,9 +1,7 @@
 import React from 'react';
 
-/* Core */
+/* core */
 import LightMainCard from './components/LightMainCard';
-// import DarkMainCard from './components/DarkMaincard';
-// import Toggle from './components/ToggleSwitch';
 import useDarkMode from 'use-dark-mode';
 import Phoneview from './components/PhoneView';
 import WatchView from './components/WatchView';
@@ -36,8 +34,6 @@ const App = (type) => {
         <LightMainCard {...darkMode} />
         <Phoneview />
         <WatchView />
-        {/* <div style={{ margin: '50px' }}></div> */}
-        {/* <DarkMainCard /> */}
       </div>
     </>
   );

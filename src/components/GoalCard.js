@@ -3,12 +3,12 @@ import React from 'react';
 /* core */
 import { CircularProgressbar } from 'react-circular-progressbar';
 import moment from 'moment';
-
+import { HiDotsHorizontal } from 'react-icons/hi';
+import 'react-circular-progressbar/dist/styles.css';
 
 /* style */
 import '../index.scss';
-import { HiDotsHorizontal } from 'react-icons/hi';
-import 'react-circular-progressbar/dist/styles.css';
+
 
 const percentage = 60;
 

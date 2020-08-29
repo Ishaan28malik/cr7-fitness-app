@@ -2,12 +2,13 @@ import React from 'react';
 
 /* core */
 import moment from 'moment';
-
-/* style */
-import '../index.scss';
 import { VscBellDot } from 'react-icons/vsc';
 import { MdLocalPostOffice } from 'react-icons/md';
 import { HiDotsHorizontal } from 'react-icons/hi';
+
+/* style */
+import '../index.scss';
+
 
 const ClockCard = () => {
   return (

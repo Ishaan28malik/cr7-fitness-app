@@ -2,10 +2,10 @@ import React from 'react';
 
 /* core */
 import moment from 'moment';
+import { HiDotsHorizontal } from 'react-icons/hi';
 
 /* style */
 import '../index.scss';
-import { HiDotsHorizontal } from 'react-icons/hi';
 
 const CalenderCard = () => {
   return (

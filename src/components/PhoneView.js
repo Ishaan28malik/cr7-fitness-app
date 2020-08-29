@@ -15,6 +15,8 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
+// Need to add dark theme mode in Mobile View
+
 const PhoneView = (darkMode) => {
     return (
         <div>

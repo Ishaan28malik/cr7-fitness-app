@@ -1,19 +1,21 @@
 import React from 'react';
 
 /* core */
-import applewatch2 from '../assets/apple-watch-2.png';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSlider from 'react-awesome-slider';
 import GoalCard from './GoalCard';
 import CalenderCard from './CalenderCard';
 import ClockCard from './Clockcard';
+import applewatch2 from '../assets/apple-watch-2.png';
 
 
 /* style */
 import '../index.scss';
 import 'react-awesome-slider/dist/styles.css';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+// Need to add dark theme mode in Watch View
 
 const WatchView = (darkMode) => {
     return (
