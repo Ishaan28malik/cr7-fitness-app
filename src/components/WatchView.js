@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* core */
-import iphone from '../assets/IPhone-X.svg';
+import applewatch2 from '../assets/apple-watch-2.png';
 import AwesomeSlider from 'react-awesome-slider';
 import GoalCard from './GoalCard';
 import CalenderCard from './CalenderCard';
@@ -15,33 +15,33 @@ import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-const PhoneView = (darkMode) => {
+const WatchView = (darkMode) => {
     return (
         <div>
             <div style={{
                 position: 'relative',
                 display: 'inline-block',
             }}>
-                <img align="right" valign="top" alt="IPhone X" style={{
-                    width: '500px',
-                    height: '470px',
-                    marginLeft: '300px',
-                    marginTop: '30px',
+                <img align="right" valign="top" alt="Apple Watch" style={{
+                    width: '900px',
+                    height: '570px',
+                    marginLeft: '-250px',
+                    marginTop: '-550px',
                     position: 'relative'
-                }} src={iphone} />
+                }} src={applewatch2} />
             </div>
             <div style={{
                 position: 'absolute',
-                marginLeft: '-350px',
-                marginTop: '-370px',
+                marginLeft: '-692px',
+                marginTop: '-385px',
             }}>
                 <div className='light-main-card'>
                     <AutoplaySlider
                         play={true}
                         autoPlay
                         style={{
-                            width: '200px',
-                            height: '300px',
+                            width: '185px',
+                            height: '170px',
                             marginLeft: '800px',
                         }}
                         cancelOnInteraction={false}
@@ -53,8 +53,8 @@ const PhoneView = (darkMode) => {
                     </AutoplaySlider>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
-export default PhoneView;
+export default WatchView;

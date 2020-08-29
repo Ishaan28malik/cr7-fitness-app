@@ -3,6 +3,8 @@
 <h2>Dark Theme</h2>
 <img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/dark-theme.png' />
 
+The **Dark Mode** has been implemented using an external package , if you want to use custom Dark mode ,check the ```cutom/DarkMainCard.js & custom/DarkMode.css```
+
 **Steps**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
