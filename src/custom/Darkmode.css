@@ -52,12 +52,12 @@
         }
       }
     }
-    .calender-main-card {
+    .calendar-main-card {
       display: flex;
       flex-direction: column;
       margin: 30px;
       //   line-height: 0px;
-      .inner-calender-card {
+      .inner-calendar-card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: white;
@@ -74,19 +74,19 @@
         h6 {
           color:white  !important;
         }
-        .calender-sub-cards {
+        .calendar-sub-cards {
           display: flex;
           justify-content: center;
           text-align: center;
           margin: 5px;
-          .calender-card-card1 {
+          .calendar-card-card1 {
             color: black;
             background-color: #148ade;
             width: 50px;
             height: 60px;
             border-radius: 10px;
           }
-          .calender-card-card2 {
+          .calendar-card-card2 {
             color: black;
             background-color: #0aab28;
             width: 50px;
@@ -94,7 +94,7 @@
             border-radius: 10px;
           }
         }
-        .calender-dots {
+        .calendar-dots {
           display: flex;
           justify-content: center;
           text-align: center;

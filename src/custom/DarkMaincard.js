@@ -1,13 +1,13 @@
-import React from 'react';
-import '../index.scss';
-import CalenderCard from '../components/CalenderCard';
-import ClockCard from '../components/Clockcard';
+import React from "react";
+import "../index.scss";
+import CalendarCard from "../components/CalendarCard";
+import ClockCard from "../components/Clockcard";
 
 const DarkMainCard = (type) => {
   return (
-    <div className='dark-main-card'>
+    <div className="dark-main-card">
       <ClockCard />
-      <CalenderCard />
+      <CalendarCard />
     </div>
   );
 };
