@@ -1,7 +1,7 @@
 <h2>Light Theme</h2>
 <img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/Light.png' width='160%'/>
 <h2>Dark Theme</h2>
-<img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/Dark.png' />
+<img src='https://github.com/Ishaan28malik/cr7-fitness/blob/master/assets/Dark.png' width='160%'/>
 
 The **Dark Mode** has been implemented using an external package , if you want to use custom Dark mode ,check the ```cutom/DarkMainCard.js & custom/DarkMode.css```
 
