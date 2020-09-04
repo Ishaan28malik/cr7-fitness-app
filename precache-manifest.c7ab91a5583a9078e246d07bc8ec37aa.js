@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83315fdd3376cae8487935e19cdf0a16",
+    "revision": "b1baddc7c38fc4f4d8730fc466576206",
     "url": "/cr7-fitness-app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cr7-fitness-app/static/css/2.943a44eb.chunk.css"
   },
   {
-    "revision": "c0f7f4b348d614c504b7",
-    "url": "/cr7-fitness-app/static/css/main.00763d09.chunk.css"
+    "revision": "2a2efe014b37ba723703",
+    "url": "/cr7-fitness-app/static/css/main.7ec2b3ca.chunk.css"
   },
   {
     "revision": "0c379c9e380f75a65ba0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cr7-fitness-app/static/js/2.43a7cdc2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0f7f4b348d614c504b7",
-    "url": "/cr7-fitness-app/static/js/main.e63d71df.chunk.js"
+    "revision": "2a2efe014b37ba723703",
+    "url": "/cr7-fitness-app/static/js/main.48f5d07d.chunk.js"
   },
   {
     "revision": "26e46be73963796c1faf",

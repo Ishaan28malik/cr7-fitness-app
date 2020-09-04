@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cr7-fitness-app/precache-manifest.2e213f1599b7c15132d01630533d96c6.js"
+  "/cr7-fitness-app/precache-manifest.c7ab91a5583a9078e246d07bc8ec37aa.js"
 );
 
 self.addEventListener('message', (event) => {
