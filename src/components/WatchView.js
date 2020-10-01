@@ -18,7 +18,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const WatchView = (darkMode) => {
   return (
-    <div>
+    <div className="watch-view">
       <div
         style={{
           position: "relative",

@@ -32,8 +32,8 @@ const App = (type) => {
       <h1 style={{ marginTop: '-50px' }}>CR7 Fitness App</h1>
       <div className='container'>
         <LightMainCard {...darkMode} />
-        <Phoneview />
-        <WatchView />
+        <Phoneview {...darkMode}/>
+        <WatchView {...darkMode}/>
       </div>
     </>
   );
