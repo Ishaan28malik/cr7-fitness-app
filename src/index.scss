@@ -191,7 +191,7 @@ h6 {
 }
 
 .dark-mode {
-  .navbar-middle {
+  .navbar-middle, .phone-view, .watch-view {
     color: white !important;
     .clock-main-card {
       display: flex;

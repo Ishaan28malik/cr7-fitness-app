@@ -18,7 +18,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const PhoneView = (darkMode) => {
   return (
-    <div>
+    <div className="phone-view">
       <div
         style={{
           position: "relative",
