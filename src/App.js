@@ -28,7 +28,8 @@ const App = (type) => {
     <div id='mainpage'>
       <div id="heading"style={{
         display:'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        backgroundColor:'#1e2633'
       }}>
         <img alt="CR7" style={{
         width: '8vw',
@@ -42,8 +43,13 @@ const App = (type) => {
         fontSize:'3vw',
       }}>
         CR7 Fitness App</h1>
-        <div className="navbar-right" onClick={darkMode.toggle}>
-            {darkMode.value ? <BiMoon color="white" /> : <BsMoon />}
+        <div className="navbar-right" onClick={darkMode.toggle}
+            style={{
+            marginTop:'5vh',
+            marginRight:'5vw',
+            
+          }}>
+            {darkMode.value ? <BiMoon color="white" size='3vw' /> : <BsMoon size='3vw'/>}
           </div> 
 
         </div>
