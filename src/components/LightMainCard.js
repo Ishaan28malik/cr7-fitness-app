@@ -19,13 +19,11 @@ const LightMainCard = (darkMode) => {
           <div className="navbar-right" onClick={darkMode.toggle}>
             {darkMode.value ? <BiMoon color="white" /> : <BsMoon />}
           </div>
-          <div
-            style={{
-              margin: "auto",
-            }}
-          >
+
+          <div style={{ margin: "auto" }}>
             <FiActivity /> Fitness Tracker
           </div>
+
           <div className="light-main-card">
             <ClockCard />
             <CalendarCard />

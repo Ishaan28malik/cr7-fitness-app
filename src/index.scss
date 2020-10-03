@@ -13,18 +13,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 h1 {
   text-align: center;
   margin: auto;
   font-size: 30px;
   font-weight: 450;
 }
-h2 {
-  text-align: center;
-}
-h3 {
-  text-align: center;
-}
+h2,
+h3,
 h4 {
   text-align: center;
 }
@@ -42,16 +39,19 @@ h6 {
   flex-direction: column;
   margin: 50px;
   margin-left: 100px;
+
   .light-main-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+
     .clock-main-card {
       display: flex;
       justify-content: center;
       margin: 30px;
+
       .inner-clock-card {
         background-color: white;
         border-radius: 20px;
@@ -59,28 +59,31 @@ h6 {
         width: 140px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
         .clock-card-icons {
           display: flex;
           justify-content: center;
           text-align: center;
           margin: 5px;
-          .clock-card-icon1 {
-            color: black;
-            background-color: #e6e8e8;
-            width: 30px;
-            padding: 6px;
-            border-radius: 4px;
-            margin-right: 5px;
-          }
+
+          .clock-card-icon1,
           .clock-card-icon2 {
             color: black;
             background-color: #e6e8e8;
             width: 30px;
             padding: 6px;
             border-radius: 4px;
+          }
+
+          .clock-card-icon1 {
+            margin-right: 5px;
+          }
+
+          .clock-card-icon2 {
             margin-left: 5px;
           }
         }
+
         .clock-dots {
           display: flex;
           justify-content: center;
@@ -89,10 +92,12 @@ h6 {
         }
       }
     }
+
     .calendar-main-card {
       display: flex;
       flex-direction: column;
       margin: 30px;
+
       .inner-calendar-card {
         background-color: white;
         border-radius: 20px;
@@ -100,28 +105,32 @@ h6 {
         width: 140px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
         .calendar-sub-cards {
           display: flex;
           justify-content: center;
           text-align: center;
           margin: 5px;
-          .calendar-card-card1 {
-            color: black;
-            background-color: #e6e8e8;
-            width: 45px;
-            height: 50px;
-            border-radius: 5px;
-            margin-right: 5px;
-          }
+
+          .calendar-card-card1,
           .calendar-card-card2 {
             color: black;
-            background-color: #ebfffc;
-            width: 45px;
-            height: 50px;
+            background-color: #e6e8e8;
+            width: 50px;
+            height: 60px;
             border-radius: 5px;
+          }
+
+          .calendar-card-card1 {
+            margin-right: 5px;
+          }
+
+          .calendar-card-card2 {
+            background-color: #ebfffc;
             margin-left: 5px;
           }
         }
+
         .calendar-dots {
           display: flex;
           justify-content: center;
@@ -130,10 +139,12 @@ h6 {
         }
       }
     }
+
     .goal-main-card {
       display: flex;
       flex-direction: column;
       margin: 30px;
+
       .inner-goal-card {
         background-color: white;
         border-radius: 20px;
@@ -141,11 +152,13 @@ h6 {
         width: 140px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
           0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
         .goal-sub-card {
           margin: 5px;
           display: flex;
           justify-content: center;
           text-align: center;
+
           .goal-card {
             color: black;
             width: 50px;
@@ -153,6 +166,7 @@ h6 {
             border-radius: 10px;
           }
         }
+
         .goal-dots {
           display: flex;
           justify-content: center;
@@ -172,165 +186,71 @@ h6 {
   background-color: lightgrey;
   width: 48rem;
   height: 18rem;
+
   .navbar-middle {
     display: flex;
     justify-content: center;
   }
+
   .navbar-right {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    // margin: auto;
     margin: 5px;
-  }
-}
-.dark-mode {
-  .Navbar {
-    background-color: #1e1e30;
   }
 }
 
 .dark-mode {
-  .navbar-middle, .phone-view, .watch-view {
+  .Navbar {
+    background-color: #1e1e30;
+  }
+
+  .navbar-middle,
+  .phone-view,
+  .watch-view {
     color: white !important;
+
     .clock-main-card {
-      display: flex;
-      justify-content: center;
       .inner-clock-card {
         background-color: black;
-        border-radius: 20px;
-        height: 160px;
-        width: 140px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        h1 {
-          color: white !important;
-        }
-        h5 {
-          color: white !important;
-        }
+
         h6 {
           color: #242323 !important;
         }
+
         .clock-card-icons {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
-          .clock-card-icon1 {
-            color: white;
-            background-color: #242323;
-            width: 30px;
-            padding: 5px;
-            border-radius: 5px;
-          }
+          .clock-card-icon1,
           .clock-card-icon2 {
             color: white;
             background-color: #242323;
-            width: 30px;
-            padding: 5px;
-            border-radius: 5px;
           }
-        }
-        .clock-dots {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
-          color: white;
         }
       }
     }
+
     .calendar-main-card {
-      display: flex;
-      flex-direction: column;
-      margin: 30px;
-      //   line-height: 0px;
       .inner-calendar-card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: white;
-        border-radius: 20px;
-        height: 160px;
-        width: 140px;
         background-color: black;
-        h1 {
-          color: white !important;
-        }
-        h5 {
-          color: white !important;
-        }
+
         h6 {
           color: white !important;
         }
+
         .calendar-sub-cards {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
           .calendar-card-card1 {
-            color: black;
             background-color: #148ade;
-            width: 50px;
-            height: 60px;
-            border-radius: 10px;
           }
+
           .calendar-card-card2 {
-            color: black;
             background-color: #0aab28;
-            width: 50px;
-            height: 60px;
-            border-radius: 10px;
           }
-        }
-        .calendar-dots {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
-          color: white;
         }
       }
     }
+
     .goal-main-card {
-      display: flex;
-      flex-direction: column;
-      margin: 30px;
       .inner-goal-card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background-color: white;
-        border-radius: 20px;
-        height: 160px;
-        width: 140px;
         background-color: black;
-        h1 {
-          color: white !important;
-        }
-        h5 {
-          color: white !important;
-        }
-        h6 {
-          color: white !important;
-        }
-        .goal-sub-cards {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
-          .goal-card {
-            width: 50px;
-            height: 60px;
-            border-radius: 10px;
-          }
-        }
-        .goal-dots {
-          display: flex;
-          justify-content: center;
-          text-align: center;
-          margin: 5px;
-          color: white;
-        }
       }
     }
   }

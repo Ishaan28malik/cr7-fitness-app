@@ -61,9 +61,11 @@ const PhoneView = (darkMode) => {
             <div>
               <ClockCard />
             </div>
+
             <div>
               <CalendarCard />
             </div>
+
             <div>
               <GoalCard />
             </div>
