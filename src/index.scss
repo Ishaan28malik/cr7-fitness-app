@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#mianpage{
+  display: flex;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -39,9 +43,9 @@ h6 {
 
 .container {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin: 50px;
-  margin-left: 100px;
+  margin: 2vh;
   .light-main-card {
     display: flex;
     flex-direction: row;
@@ -163,7 +167,10 @@ h6 {
     }
   }
 }
-
+#root{
+  width: 100%;
+  background-color: lightgrey;
+}
 .Navbar {
   display: flex;
   flex-direction: row;
@@ -178,15 +185,19 @@ h6 {
   }
   .navbar-right {
     cursor: pointer;
+    height: min-content;
     display: flex;
     justify-content: center;
-    // margin: auto;
-    margin: 5px;
+    margin-top: 10vh;
+    margin-right: 10vw;;
   }
 }
 .dark-mode {
   .Navbar {
     background-color: #1e1e30;
+  }
+  #root{
+    background-color:#1e1e30 ;
   }
 }
 

@@ -4,8 +4,7 @@ import React from "react";
 import GoalCard from "./GoalCard";
 import CalendarCard from "./CalendarCard";
 import ClockCard from "./Clockcard";
-import { BiMoon } from "react-icons/bi";
-import { BsMoon } from "react-icons/bs";
+
 import { FiActivity } from "react-icons/fi";
 
 /* style */
@@ -16,9 +15,7 @@ const LightMainCard = (darkMode) => {
     <>
       <div className="Navbar">
         <div className="navbar-middle">
-          <div className="navbar-right" onClick={darkMode.toggle}>
-            {darkMode.value ? <BiMoon color="white" /> : <BsMoon />}
-          </div>
+
           <div
             style={{
               margin: "auto",
