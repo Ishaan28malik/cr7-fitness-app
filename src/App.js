@@ -7,7 +7,7 @@ import Phoneview from './components/PhoneView';
 import WatchView from './components/WatchView';
 import cr7 from './assets/cr7.png'
 import { BiMoon } from "react-icons/bi";
-import { BsMoon } from "react-icons/bs";
+import { BsSun } from "react-icons/bs";
 
 
 /* style */
@@ -49,7 +49,7 @@ const App = (type) => {
             marginRight:'5vw',
             
           }}>
-            {darkMode.value ? <BiMoon color="white" size='3vw' /> : <BsMoon size='3vw'/>}
+            {darkMode.value ? <BiMoon color="white" size='3vw' /> : <BsSun size='3vw' color="yellow"/>}
           </div> 
 
         </div>
