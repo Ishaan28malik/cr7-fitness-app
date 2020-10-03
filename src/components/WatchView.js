@@ -39,6 +39,7 @@ const WatchView = (darkMode) => {
           src={applewatch2}
         />
       </div>
+
       <div
         style={{
           position: "absolute",
@@ -61,9 +62,11 @@ const WatchView = (darkMode) => {
             <div>
               <ClockCard />
             </div>
+
             <div>
               <CalendarCard />
             </div>
+
             <div>
               <GoalCard />
             </div>
