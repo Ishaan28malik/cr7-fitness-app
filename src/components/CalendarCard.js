@@ -11,18 +11,36 @@ const CalendarCard = () => {
   return (
     <div className="calendar-main-card">
       <div className="inner-calendar-card">
-        <h6>{moment().format("h:mm")}</h6>
-        <h5>Calendar</h5>
+        <h6 className="usg-heading-6">{moment().format("h:mm")}</h6>
+        <h5 className="usg-heading-5">Calendar</h5>
         <div className="calendar-sub-cards">
           <div className="calendar-card-card1">
-            <h6 style={{ fontWeight: "bolder", fontSize: "initial" }}>2</h6>
-            <hr class="solid"></hr>
-            <h6 style={{ fontWeight: "100", fontSize: "xx-small" }}>work</h6>
+            <h6
+              className="usg-heading-6"
+              style={{ fontWeight: "bolder", fontSize: "initial" }}
+            >
+              2
+            </h6>
+            <hr className="solid"></hr>
+            <h6
+              className="usg-heading-6"
+              style={{ fontWeight: "100", fontSize: "xx-small" }}
+            >
+              work
+            </h6>
           </div>
           <div className="calendar-card-card2">
-            <h6 style={{ fontWeight: "bolder", fontSize: "initial" }}>3</h6>
-            <hr class="solid"></hr>
-            <h6 style={{ fontWeight: "100", fontSize: "xx-small" }}>
+            <h6
+              className="usg-heading-6"
+              style={{ fontWeight: "bolder", fontSize: "initial" }}
+            >
+              3
+            </h6>
+            <hr className="solid"></hr>
+            <h6
+              className="usg-heading-6"
+              style={{ fontWeight: "100", fontSize: "xx-small" }}
+            >
               Personal
             </h6>
           </div>
